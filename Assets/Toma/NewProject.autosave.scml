@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="toma.png" width="64" height="80" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="toma_face.png" width="64" height="80" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="toma_foot.png" width="6" height="11" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="toma_hand.png" width="6" height="17" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="NewAnimation" length="1000" interval="100">
+            <mainline>
+                <key id="0" time="786">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="3" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="4" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="0" key="0" z_index="4"/>
+                </key>
+                <key id="1" time="853"/>
+            </mainline>
+            <timeline id="0" name="toma_face">
+                <key id="0" time="786" spin="0">
+                    <object folder="0" file="1" x="-28" y="44.8"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="toma_foot">
+                <key id="0" time="786" spin="0">
+                    <object folder="0" file="2" x="-9.333333" y="-22.666667"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="toma_hand">
+                <key id="0" time="786" spin="0">
+                    <object folder="0" file="3" x="-25.066667" y="-11.2"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="toma_hand_001">
+                <key id="0" time="786" spin="0">
+                    <object folder="0" file="3" x="27.733333" y="-9.6"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="toma_foot_000">
+                <key id="0" time="786" spin="0">
+                    <object folder="0" file="2" x="13.866667" y="-23.266667"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
